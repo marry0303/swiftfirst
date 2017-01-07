@@ -1,0 +1,17 @@
+import Foundation
+var i:Int=1
+var j:Int=0
+while i<61 {
+if i%3 == 0{
+print("(@>_<@)")
+j+=1
+}
+else if String(i).contains("3"){
+print("(@>_<@)")
+j+=1
+}
+else{
+print(i)
+}
+i+=1
+}
